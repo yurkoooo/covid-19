@@ -1,9 +1,9 @@
-var button = document.querySelector('.form__button');
-    button.onclick = function validateEmail () {
+    var button = document.querySelector('.feedback__mainBtn');
+    var form = document.querySelector('.feedback__mainForm');        
+        button.onclick = function validateEmail () {
         event.preventDefault();
-        var form = document.querySelector('.title__mainForm');
-        var email = document.querySelector('.title__mainInput').value;
         var pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        var email = document.querySelector('.feedback__mainInput').value;
         if (email.match(pattern)) {
             form.classList.add ('success');
             form.classList.remove ('error');
