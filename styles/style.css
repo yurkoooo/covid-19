@@ -598,14 +598,14 @@
       color: #F44A45;
     }
 
-    .feedback__BigBacteria {
+    .feedback__bigBacteria {
       bottom: 216px;
       left: 137px;
       position: absolute;
       width: 232px;
     }
     
-    .feedback__SmallBacteria {
+    .feedback__smallBacteria {
       bottom: 111px;
       position: absolute;
       right: 115px;
